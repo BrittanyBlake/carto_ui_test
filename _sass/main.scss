@@ -11,7 +11,7 @@ body {
   padding: 47px 288px 124px 251.4px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -170,27 +170,23 @@ nav {
   letter-spacing: -0.8px;
   text-align: right;
   color: #ffffff;
-  
 
   span {
-    
     font-size: 18px;
     letter-spacing: -0.6px;
   }
 }
 
-
-.signup button{
+.signup button {
   width: 219px;
   height: 50px;
   padding: 17px 61px 15px;
   background-color: $primaryColor;
   border: none;
-  
 }
 
-a.signup-link{
-// width: 97px;
+a.signup-link {
+  // width: 97px;
   // height: 18px;
   padding-bottom: 5px;
   font-family: Karla;
@@ -205,9 +201,7 @@ a.signup-link{
   position: relative;
 }
 
-
-
-a.signup-link:after {    
+a.signup-link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -219,7 +213,21 @@ a.signup-link:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a.signup-link:hover:after { 
-  width: 100%; 
-  left: 0; 
+a.signup-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.red-photo {
+  width: 344px;
+  height: 179px;
+  margin: 0 0 7px 7px;
+  background-color: $primaryColor;
+}
+
+.conference-img {
+  width: 344px;
+  height: 179px;
+  margin: 7px 7px 0 -10px;
+  object-fit: fill;
 }

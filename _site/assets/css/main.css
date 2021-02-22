@@ -48,4 +48,8 @@ a.signup-link:after { background: none repeat scroll 0 0 transparent; bottom: 0;
 
 a.signup-link:hover:after { width: 100%; left: 0; }
 
+.red-photo { width: 344px; height: 179px; margin: 0 0 7px 7px; background-color: #f24440; }
+
+.conference-img { width: 344px; height: 179px; margin: 7px 7px 0 -10px; object-fit: fill; }
+
 /*# sourceMappingURL=main.css.map */
