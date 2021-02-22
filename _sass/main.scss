@@ -3,36 +3,28 @@ $bodyColor: #fff;
 $svgColor: #162a44;
 $bodyFont: "Karla", sans-serif;
 $primaryColor: #f24440;
+$end: flex-end;
+$between: space-between;
+$blackColor: #000000;
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
   padding: 47px 288px 50px 251.4px;
-
 }
-
 a {
   text-decoration: none;
 }
 
-//footer
-footer {
-  position: fixed;
-  bottom: 0;
-}
-
-//nav
-
+/****** navigation ******/
 nav {
-  //position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: $between;
   margin-bottom: 100px;
-  
-   a {
+
+  a {
     color: $svgColor;
-    text-decoration: none;
     img {
       min-width: 100px;
       height: 50px;
@@ -46,20 +38,19 @@ nav {
     a {
       margin: 15px 32px 0 0;
       font-weight: bold;
-      align-items: flex-end;
+      align-items: $end;
     }
   }
 }
 
-//main page
+/****** Main Content ******/
+a {
+  text-decoration: none;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  //grid-template-rows: 400px 100px 300px 300px 200px
-  //grid-template-rows: 2fr 0.5fr 1.5fr 1.5fr
-  //grid-template-rows: repeat(5, 1fr);
-
-  
 }
 
 .conference-title {
@@ -69,8 +60,6 @@ nav {
   font-size: 84px;
   font-family: $bodyFont;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 0.95;
   letter-spacing: -2px;
   text-transform: capitalize;
@@ -86,8 +75,6 @@ nav {
   margin: 0 6px 0 0;
   font-size: 36px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.44;
   letter-spacing: -1.6px;
 }
@@ -108,23 +95,15 @@ nav {
   height: 331px;
   margin: 0 0 12px 9px;
   padding: 13px 15px 37px 24px;
-  //padding: 37px 24px 13px 15px;
   background-color: $primaryColor;
-  // position: absolute;
-  // z-index: 2;
 }
 
 .white {
   width: 390px;
   height: 334px;
   margin: 0 0 0 -50px;
-  //padding: 15px 37px 24px 13px;
-  //padding: 13px 15px 37px 24px;
   padding: 15px 37px 24px 13px;
-  //padding: 37px 24px 13px 15px;
   background-color: $bodyColor;
-  // position:absolute;
-  // z-index: 1;
 }
 
 .main-text {
@@ -133,11 +112,9 @@ nav {
   font-family: $bodyFont;
   font-size: 18px;
   font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.56;
   letter-spacing: normal;
-  color: #000000;
+  color: $blackColor;
   padding: 13px 15px 25px 25px;
 }
 
@@ -146,18 +123,13 @@ nav {
   height: 18px;
   margin: -330px 471px 0 -50px;
   text-transform: capitalize;
-  //margin: 0 471px 630px 0;
-  //transform: rotate(-90deg);
-  //writing-mode: vertical-rl;
+
   font-family: $bodyFont;
   font-size: 15px;
   font-weight: bold;
   font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: $bodyColor;
   display: block;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -170,12 +142,10 @@ nav {
   font-family: Karla;
   font-size: 24px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: -0.8px;
   text-align: right;
-  color: #ffffff;
+  color: $bodyColor;
 
   span {
     font-size: 18px;
@@ -183,16 +153,14 @@ nav {
   }
 }
 
-.left{
-  display:flex;
-  justify-content: flex-end;
-  //padding-right: 80px;
+.left {
+  display: flex;
+  justify-content: $end;
 }
 
-.signup{
+.signup {
   align-items: center;
-  padding-bottom:160px;
-  padding-right: 80px;
+  padding: 0 80px 160px 0;
 }
 .signup button {
   width: 219px;
@@ -200,22 +168,15 @@ nav {
   padding: 17px 61px 15px;
   background-color: $primaryColor;
   border: none;
-  
 }
 
 a.signup-link {
-  // width: 97px;
-  // height: 18px;
   padding-bottom: 5px;
   font-family: Karla;
   font-size: 15px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: $bodyColor;
   position: relative;
 }
 
@@ -227,7 +188,7 @@ a.signup-link:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: $bodyColor;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -274,8 +235,8 @@ a.signup-link:hover:after {
 }
 .modal-content {
   position: relative;
-  background-color: white;
-  color: #000000;
+  background-color: $bodyColor;
+  color: $blackColor;
   padding: 20px;
   margin: auto;
   width: 50%;
@@ -316,27 +277,18 @@ a.signup-link:hover:after {
   }
 }
 
-.six{
- // align-items: flex-end;
+.six {
   margin-left: 100px;
-  // padding-bottom: 150px;
- //display: flex;
-        // align-items: center;
-        // justify-content: center;
-        // flex-direction: row;
 }
 
-.vid-one{
-  margin-top: -10px;
-  margin-bottom: 50px;
-  margin-left: 80px;
+.vid-one {
+  margin: -10px 0 50px 80px;
 }
 
-.vid-two{
+.vid-two {
   margin-left: 170px;
 }
 
-.eight{
-margin-left: 200px;
- margin-top: -30px;
+.eight {
+  margin: -30px 0 0 200px;
 }

@@ -2,11 +2,10 @@ body { background: #c5ccd5; color: #fff; font-family: "Karla", sans-serif; paddi
 
 a { text-decoration: none; }
 
-footer { position: fixed; bottom: 0; }
-
+/****** navigation ******/
 nav { display: flex; justify-content: space-between; margin-bottom: 100px; }
 
-nav a { color: #162a44; text-decoration: none; }
+nav a { color: #162a44; }
 
 nav a img { min-width: 100px; height: 50px; }
 
@@ -16,13 +15,16 @@ nav .nav-links { display: flex; }
 
 nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-end; }
 
+/****** Main Content ******/
+a { text-decoration: none; }
+
 .grid-container { display: grid; grid-template-columns: repeat(2, 1fr); }
 
-.conference-title { width: 441px; height: 320px; margin: 0 0 44px; font-size: 84px; font-family: "Karla", sans-serif; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 0.95; letter-spacing: -2px; text-transform: capitalize; }
+.conference-title { width: 441px; height: 320px; margin: 0 0 44px; font-size: 84px; font-family: "Karla", sans-serif; font-weight: bold; line-height: 0.95; letter-spacing: -2px; text-transform: capitalize; }
 
 .three { display: flex; }
 
-.online { width: 102px; height: 52px; margin: 0 6px 0 0; font-size: 36px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.44; letter-spacing: -1.6px; }
+.online { width: 102px; height: 52px; margin: 0 6px 0 0; font-size: 36px; font-weight: bold; line-height: 1.44; letter-spacing: -1.6px; }
 
 .oval { height: 12px; width: 12px; background-color: #f24440; border-radius: 50%; display: inline-block; }
 
@@ -32,21 +34,21 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 
 .white { width: 390px; height: 334px; margin: 0 0 0 -50px; padding: 15px 37px 24px 13px; background-color: #fff; }
 
-.main-text { width: 351px; height: 281px; font-family: "Karla", sans-serif; font-size: 18px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.56; letter-spacing: normal; color: #000000; padding: 13px 15px 25px 25px; }
+.main-text { width: 351px; height: 281px; font-family: "Karla", sans-serif; font-size: 18px; font-weight: normal; line-height: 1.56; letter-spacing: normal; color: #000000; padding: 13px 15px 25px 25px; }
 
-.about-text { width: 46px; height: 18px; margin: -330px 471px 0 -50px; text-transform: capitalize; font-family: "Karla", sans-serif; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); }
+.about-text { width: 46px; height: 18px; margin: -330px 471px 0 -50px; text-transform: capitalize; font-family: "Karla", sans-serif; font-size: 15px; font-weight: bold; font-stretch: normal; text-align: center; color: #fff; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); }
 
-.quote { width: 322px; height: 252px; margin: 0 0 0 103px; font-family: Karla; font-size: 24px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: -0.8px; text-align: right; color: #ffffff; }
+.quote { width: 322px; height: 252px; margin: 0 0 0 103px; font-family: Karla; font-size: 24px; font-weight: bold; line-height: 1.5; letter-spacing: -0.8px; text-align: right; color: #fff; }
 
 .quote span { font-size: 18px; letter-spacing: -0.6px; }
 
 .left { display: flex; justify-content: flex-end; }
 
-.signup { align-items: center; padding-bottom: 160px; padding-right: 80px; }
+.signup { align-items: center; padding: 0 80px 160px 0; }
 
 .signup button { width: 219px; height: 50px; padding: 17px 61px 15px; background-color: #f24440; border: none; }
 
-a.signup-link { padding-bottom: 5px; font-family: Karla; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; position: relative; }
+a.signup-link { padding-bottom: 5px; font-family: Karla; font-size: 15px; font-weight: bold; text-align: center; color: #fff; position: relative; }
 
 a.signup-link:after { background: none repeat scroll 0 0 transparent; bottom: 0; content: ""; display: block; height: 2px; left: 50%; position: absolute; background: #fff; transition: width 0.3s ease 0s, left 0.3s ease 0s; width: 0; }
 
@@ -62,7 +64,7 @@ a.signup-link:hover:after { width: 100%; left: 0; }
 
 .modal { display: none; position: fixed; padding-top: 50px; left: 0; top: 0; width: 100%; height: 100%; background-color: black; background-color: rgba(0, 0, 0, 0.5); }
 
-.modal-content { position: relative; background-color: white; color: #000000; padding: 20px; margin: auto; width: 50%; text-align: center; -webkit-animation-name: animatetop; -webkit-animation-duration: 0.4s; animation-name: animatetop; animation-duration: 0.4s; }
+.modal-content { position: relative; background-color: #fff; color: #000000; padding: 20px; margin: auto; width: 50%; text-align: center; -webkit-animation-name: animatetop; -webkit-animation-duration: 0.4s; animation-name: animatetop; animation-duration: 0.4s; }
 
 .close-btn { float: right; color: lightgray; font-size: 24px; font-weight: bold; }
 
@@ -80,10 +82,8 @@ a.signup-link:hover:after { width: 100%; left: 0; }
 
 .six { margin-left: 100px; }
 
-.vid-one { margin-top: -10px; margin-bottom: 50px; margin-left: 80px; }
+.vid-one { margin: -10px 0 50px 80px; }
 
 .vid-two { margin-left: 170px; }
 
-.eight { margin-left: 200px; margin-top: -30px; }
-
-/*# sourceMappingURL=main.css.map */
+.eight { margin: -30px 0 0 200px; }
