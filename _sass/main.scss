@@ -1,7 +1,7 @@
 $backgroundColor: #c5ccd5;
 $bodyColor: #fff;
-$svgColor: #162A44;
-$bodyFont:'Karla', sans-serif;
+$svgColor: #162a44;
+$bodyFont: "Karla", sans-serif;
 $primaryColor: #f24440;
 
 body {
@@ -23,7 +23,7 @@ nav {
   //position: fixed;
   display: flex;
   justify-content: space-between;
-  
+
   a {
     color: $svgColor;
     text-decoration: none;
@@ -31,29 +31,28 @@ nav {
       min-width: 100px;
       height: 50px;
     }
-    &:hover{
-      color:$bodyColor
+    &:hover {
+      color: $bodyColor;
     }
   }
   .nav-links {
     display: flex;
-    a{
+    a {
       margin: 15px 32px 0 0;
       font-weight: bold;
-      align-items:flex-end;
-
+      align-items: flex-end;
     }
   }
 }
 
 //main page
-.grid-container{
-  display:grid;
+.grid-container {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5,1fr );
+  grid-template-rows: repeat(5, 1fr);
 }
 
-.conference-title{
+.conference-title {
   width: 441px;
   height: 320px;
   margin: 0 0 44px;
@@ -67,11 +66,11 @@ nav {
   text-transform: capitalize;
 }
 
-.three{
-display: flex;
+.three {
+  display: flex;
 }
 
-.online{
+.online {
   width: 102px;
   height: 52px;
   margin: 0 6px 0 0;
@@ -83,18 +82,18 @@ display: flex;
   letter-spacing: -1.6px;
 }
 
-.oval{
+.oval {
   height: 12px;
   width: 12px;
   background-color: $primaryColor;
   border-radius: 50%;
   display: inline-block;
 }
-.five{
+.five {
   position: relative;
 }
 
-.red{
+.red {
   width: 390px;
   height: 331px;
   margin: 0 0 12px 9px;
@@ -105,7 +104,7 @@ display: flex;
   // z-index: 2;
 }
 
-.white{
+.white {
   width: 390px;
   height: 334px;
   margin: 0 0 0 -50px;
@@ -118,7 +117,7 @@ display: flex;
   // z-index: 1;
 }
 
-.main-text{
+.main-text {
   width: 351px;
   height: 281px;
   font-family: $bodyFont;
@@ -132,11 +131,11 @@ display: flex;
   padding: 13px 15px 25px 25px;
 }
 
-.about-text{
+.about-text {
   width: 46px;
   height: 18px;
- margin: -330px 471px 0 -50px;
- text-transform: capitalize;
+  margin: -330px 471px 0 -50px;
+  text-transform: capitalize;
   //margin: 0 471px 630px 0;
   //transform: rotate(-90deg);
   //writing-mode: vertical-rl;
@@ -149,7 +148,29 @@ display: flex;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  display:block;
-    -webkit-transform: rotate(-90deg); 
-    -moz-transform: rotate(-90deg); 
+  display: block;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+
+.quote {
+  width: 322px;
+  height: 252px;
+  margin: 79px 0 0 103px;
+  font-family: Karla;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.8px;
+  text-align: right;
+  color: #ffffff;
+  
+
+  span {
+    
+    font-size: 18px;
+    letter-spacing: -0.6px;
+  }
 }

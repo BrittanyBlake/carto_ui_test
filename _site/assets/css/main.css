@@ -4,7 +4,7 @@ footer { position: fixed; bottom: 0; }
 
 nav { display: flex; justify-content: space-between; }
 
-nav a { color: #162A44; text-decoration: none; }
+nav a { color: #162a44; text-decoration: none; }
 
 nav a img { min-width: 100px; height: 50px; }
 
@@ -33,5 +33,9 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 .main-text { width: 351px; height: 281px; font-family: "Karla", sans-serif; font-size: 18px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.56; letter-spacing: normal; color: #000000; padding: 13px 15px 25px 25px; }
 
 .about-text { width: 46px; height: 18px; margin: -330px 471px 0 -50px; text-transform: capitalize; font-family: "Karla", sans-serif; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); }
+
+.quote { width: 322px; height: 252px; margin: 79px 0 0 103px; font-family: Karla; font-size: 24px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: -0.8px; text-align: right; color: #ffffff; }
+
+.quote span { font-size: 18px; letter-spacing: -0.6px; }
 
 /*# sourceMappingURL=main.css.map */
