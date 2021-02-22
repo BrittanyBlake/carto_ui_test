@@ -29,8 +29,9 @@ a {
 nav {
   // background-color: $bodyColor;
   display: flex;
-  justify-content: $around;
-  margin: 0 0 100px 0;
+  width: 960px;
+  justify-content: $between;
+  margin: 0 0 100px 250px;
   padding: 50px 0 0 50px;
 
   a {
@@ -96,7 +97,7 @@ a {
   border-radius: 50%;
   display: inline-block;
 }
-.description{
+.description {
   position: relative;
 }
 
@@ -299,22 +300,23 @@ a.signup-link:hover:after {
   margin-left: 170px;
 }
 
-.eight {
+.photo-two {
   margin: -30px 0 0 200px;
 }
 
 @media only screen and (max-width: $mobile) {
   nav {
-   // background-color: $bodyColor;
+    // background-color: $bodyColor;
     display: inline-block;
     padding-right: 200px;
-     margin-bottom: 50px;
-     max-width: 100%;
+    margin-bottom: 50px;
+    margin-left: 0;
+    max-width: 100%;
   }
 
   .main-content {
     padding: 0;
-   // max-width: 100%;
+    // max-width: 100%;
     padding: 0 20px 0 20px;
   }
 
@@ -323,41 +325,82 @@ a.signup-link:hover:after {
     grid-template-columns: 1fr;
   }
 
-  .conference-title{
-    grid-row:1;
-  
+  .conference-title {
+    grid-row: 1;
+
     font-size: 2em;
     letter-spacing: 0;
     max-height: 50px;
   }
 
-  .online-div{
+  .online-div {
     grid-row: 2;
     //padding: 0 20px 0 20px;
   }
 
-  .signup{
+  .signup {
+    grid-row: 3;
+    padding-bottom: 0;
+    display: block;
+    margin-top: 50px;
+  }
+
+  .video-section {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .vid-one {
     grid-row: 4;
+    margin: 50px;
+    width: 300px;
   }
 
-  .video-section{
-    grid-row:3;
+  .yt-video {
+    width: 300px;
   }
 
-  // .vid-two{
-  //   display: none;
-  // }
+  .vid-two {
+    grid-row: 5;
+    margin: 50px;
+    width: 300px;
+  }
 
-  .photo-one{
+  .photo-one {
     display: none;
-    margin: 0;
+    // mar/gin: 0;
   }
 
-
-
-  .description{
-    grid-row:6;
+  .description {
+    grid-row: 6;
   }
 
+  .quote-section {
+    grid-row: 8;
+   
+  }
 
+  .quote{
+     margin:0;
+  }
+
+  .photo-two {
+    grid-row: 7;
+    margin: 50px 0 ;
+  }
+
+  .red,
+  .white {
+    width: 250px;
+  }
+
+  .red {
+    margin-left: 60px;
+  }
+
+  .main-text {
+    width: 250px;
+    line-height: normal;
+    padding: 0;
+  }
 }
