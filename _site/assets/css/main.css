@@ -28,6 +28,10 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 
 .red { width: 390px; height: 331px; margin: 0 0 12px 9px; padding: 13px 15px 37px 24px; background-color: #f24440; }
 
-.main-text { width: 390px; height: 334px; margin: 0 0 0 -50px; padding: 15px 37px 24px 13px; background-color: #fff; }
+.white { width: 390px; height: 334px; margin: 0 0 0 -50px; padding: 15px 37px 24px 13px; background-color: #fff; }
+
+.main-text { width: 351px; height: 281px; font-family: "Karla", sans-serif; font-size: 18px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 1.56; letter-spacing: normal; color: #000000; padding: 13px 15px 25px 25px; }
+
+.about-text { width: 46px; height: 18px; margin: -330px 471px 0 -50px; text-transform: capitalize; font-family: "Karla", sans-serif; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); }
 
 /*# sourceMappingURL=main.css.map */
