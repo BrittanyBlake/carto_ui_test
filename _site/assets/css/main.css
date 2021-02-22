@@ -20,8 +20,6 @@ nav .nav-links { display: flex; }
 nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-end; }
 
 /****** Main Content ******/
-a { text-decoration: none; }
-
 .grid-container { display: grid; grid-template-columns: repeat(2, 1fr); }
 
 .conference-title { width: 441px; height: 320px; margin: 0 0 44px; font-size: 84px; font-family: "Karla", sans-serif; font-weight: bold; line-height: 0.95; letter-spacing: -2px; text-transform: capitalize; }
@@ -31,8 +29,6 @@ a { text-decoration: none; }
 .online { width: 102px; height: 52px; margin: 0 6px 0 0; font-size: 36px; font-weight: bold; line-height: 1.44; letter-spacing: -1.6px; }
 
 .oval { height: 12px; width: 12px; background-color: #f24440; border-radius: 50%; display: inline-block; }
-
-.description { position: relative; }
 
 .red { width: 390px; height: 331px; margin: 0 0 12px 9px; padding: 13px 15px 37px 24px; background-color: #f24440; }
 
