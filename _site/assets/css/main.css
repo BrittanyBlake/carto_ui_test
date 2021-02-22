@@ -52,4 +52,8 @@ a.signup-link:hover:after { width: 100%; left: 0; }
 
 .conference-img { width: 344px; height: 179px; margin: 7px 7px 0 -10px; object-fit: fill; }
 
+.red-video { width: 410px; height: 226px; margin: 0 0 7px 7px; background-color: #f24440; }
+
+.yt-video { margin: 7px 7px 0 -10px; }
+
 /*# sourceMappingURL=main.css.map */
