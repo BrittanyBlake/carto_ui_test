@@ -4,7 +4,7 @@ a { text-decoration: none; }
 
 footer { position: fixed; bottom: 0; }
 
-nav { display: flex; justify-content: space-between; }
+nav { display: flex; justify-content: space-between; margin-bottom: 100px; }
 
 nav a { color: #162a44; text-decoration: none; }
 
@@ -16,7 +16,7 @@ nav .nav-links { display: flex; }
 
 nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-end; }
 
-.grid-container { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(5, 1fr); }
+.grid-container { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 1.5fr 0.5fr 1.5fr 1.5fr; }
 
 .conference-title { width: 441px; height: 320px; margin: 0 0 44px; font-size: 84px; font-family: "Karla", sans-serif; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 0.95; letter-spacing: -2px; text-transform: capitalize; }
 
@@ -36,9 +36,13 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 
 .about-text { width: 46px; height: 18px; margin: -330px 471px 0 -50px; text-transform: capitalize; font-family: "Karla", sans-serif; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); }
 
-.quote { width: 322px; height: 252px; margin: 79px 0 0 103px; font-family: Karla; font-size: 24px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: -0.8px; text-align: right; color: #ffffff; }
+.quote { width: 322px; height: 252px; margin: 0 0 0 103px; font-family: Karla; font-size: 24px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: -0.8px; text-align: right; color: #ffffff; }
 
 .quote span { font-size: 18px; letter-spacing: -0.6px; }
+
+.left { display: flex; justify-content: flex-end; }
+
+.signup { align-items: center; padding-bottom: 160px; padding-right: 80px; }
 
 .signup button { width: 219px; height: 50px; padding: 17px 61px 15px; background-color: #f24440; border: none; }
 
@@ -73,5 +77,13 @@ a.signup-link:hover:after { width: 100%; left: 0; }
     opacity: 0; }
   to { top: 0;
     opacity: 1; } }
+
+.six { margin-left: 100px; }
+
+.vid-one { margin-top: -10px; margin-bottom: 50px; }
+
+.vid-two { margin-left: 80px; }
+
+.eight { margin-left: 100px; margin-top: -30px; }
 
 /*# sourceMappingURL=main.css.map */
