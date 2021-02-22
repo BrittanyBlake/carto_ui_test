@@ -11,6 +11,10 @@ body {
   padding: 47px 288px 124px 251.4px;
 }
 
+a{
+  text-decoration: none;
+}
+
 //footer
 footer {
   position: fixed;
@@ -173,4 +177,49 @@ nav {
     font-size: 18px;
     letter-spacing: -0.6px;
   }
+}
+
+
+.signup button{
+  width: 219px;
+  height: 50px;
+  padding: 17px 61px 15px;
+  background-color: $primaryColor;
+  border: none;
+  
+}
+
+a.signup-link{
+// width: 97px;
+  // height: 18px;
+  padding-bottom: 5px;
+  font-family: Karla;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+
+
+a.signup-link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.signup-link:hover:after { 
+  width: 100%; 
+  left: 0; 
 }

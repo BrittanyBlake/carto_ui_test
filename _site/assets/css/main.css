@@ -1,5 +1,7 @@
 body { background: #c5ccd5; color: #fff; font-family: "Karla", sans-serif; padding: 47px 288px 124px 251.4px; }
 
+a { text-decoration: none; }
+
 footer { position: fixed; bottom: 0; }
 
 nav { display: flex; justify-content: space-between; }
@@ -37,5 +39,13 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 .quote { width: 322px; height: 252px; margin: 79px 0 0 103px; font-family: Karla; font-size: 24px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.5; letter-spacing: -0.8px; text-align: right; color: #ffffff; }
 
 .quote span { font-size: 18px; letter-spacing: -0.6px; }
+
+.signup button { width: 219px; height: 50px; padding: 17px 61px 15px; background-color: #f24440; border: none; }
+
+a.signup-link { padding-bottom: 5px; font-family: Karla; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; position: relative; }
+
+a.signup-link:after { background: none repeat scroll 0 0 transparent; bottom: 0; content: ""; display: block; height: 2px; left: 50%; position: absolute; background: #fff; transition: width 0.3s ease 0s, left 0.3s ease 0s; width: 0; }
+
+a.signup-link:hover:after { width: 100%; left: 0; }
 
 /*# sourceMappingURL=main.css.map */
