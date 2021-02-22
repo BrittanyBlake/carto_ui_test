@@ -1,9 +1,11 @@
-body { background: #c5ccd5; color: #fff; font-family: "Karla", sans-serif; padding: 47px 288px 50px 251.4px; }
+body { background: #c5ccd5; color: #fff; font-family: "Karla", sans-serif; }
+
+.main-content { padding: 47px 288px 50px 251.4px; }
 
 a { text-decoration: none; }
 
 /****** navigation ******/
-nav { display: flex; justify-content: space-between; margin-bottom: 100px; }
+nav { display: flex; justify-content: space-around; margin: 0 0 100px 0; padding: 50px 0 0 50px; }
 
 nav a { color: #162a44; }
 
@@ -22,13 +24,13 @@ a { text-decoration: none; }
 
 .conference-title { width: 441px; height: 320px; margin: 0 0 44px; font-size: 84px; font-family: "Karla", sans-serif; font-weight: bold; line-height: 0.95; letter-spacing: -2px; text-transform: capitalize; }
 
-.three { display: flex; }
+.online-div { display: flex; }
 
 .online { width: 102px; height: 52px; margin: 0 6px 0 0; font-size: 36px; font-weight: bold; line-height: 1.44; letter-spacing: -1.6px; }
 
 .oval { height: 12px; width: 12px; background-color: #f24440; border-radius: 50%; display: inline-block; }
 
-.five { position: relative; }
+.description { position: relative; }
 
 .red { width: 390px; height: 331px; margin: 0 0 12px 9px; padding: 13px 15px 37px 24px; background-color: #f24440; }
 
@@ -80,10 +82,14 @@ a.signup-link:hover:after { width: 100%; left: 0; }
   to { top: 0;
     opacity: 1; } }
 
-.six { margin-left: 100px; }
+.video-section { margin-left: 100px; }
 
 .vid-one { margin: -10px 0 50px 80px; }
 
 .vid-two { margin-left: 170px; }
 
 .eight { margin: -30px 0 0 200px; }
+
+@media only screen and (max-width: 430px) { nav { display: inline-block; padding-right: 200px; margin-bottom: 50px; max-width: 100%; } .main-content { padding: 0; padding: 0 20px 0 20px; } .grid-container { display: grid; grid-template-columns: 1fr; } .conference-title { grid-row: 1; font-size: 2em; letter-spacing: 0; max-height: 50px; } .online-div { grid-row: 2; } .signup { grid-row: 4; } .video-section { grid-row: 3; } .photo-one { display: none; margin: 0; } .description { grid-row: 6; } }
+
+/*# sourceMappingURL=main.css.map */
