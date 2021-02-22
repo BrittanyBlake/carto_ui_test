@@ -18,6 +18,10 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 
 .conference-title { width: 441px; height: 320px; margin: 0 0 44px; font-size: 84px; font-family: "Karla", sans-serif; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 0.95; letter-spacing: -2px; text-transform: capitalize; }
 
+.three { display: flex; }
+
 .online { width: 102px; height: 52px; margin: 0 6px 0 0; font-size: 36px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1.44; letter-spacing: -1.6px; }
+
+.oval { height: 12px; width: 12px; background-color: #f24440; border-radius: 50%; display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
