@@ -6,9 +6,16 @@ layout: default
 <div class="grid-container">
   <h1 class="conference-title">Lorem ipsum dolor Conference</h1>
   <div class="signup">
-    <button type="button">
+    <button id="modal-btn"><a href="#" class="signup-link"> Sign up now</a></button>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <p>Thanks for signing up!</p>
+      </div>
+    </div>
+    <!-- <button type="button">
       <a href="https://carto.com/signup/" class="signup-link"> Sign up now</a>
-    </button>
+    </button> -->
   </div>
   <div class="three">
     <p class="online">Online</p>
@@ -61,7 +68,8 @@ layout: default
       <span class="quote-small"> 2020 Attendee</span>
     </p>
   </div>
-  <div class="eight"><div class="red-video">
+  <div class="eight">
+    <div class="red-video">
       <iframe
         width="410"
         height="226"
@@ -71,15 +79,19 @@ layout: default
         allowfullscreen
         class="yt-video"
       ></iframe>
-    </div></div>
-  <div class="nine">EMPTY</div>
-  <div class="ten">
-    <div class="red-photo">
-      <img
-        src="./assets/images/conference.jpg"
-        alt="conference photo"
-        class="conference-img"
-      />
+    </div>
+  </div>
+  <div></div>
+  <div>
+    <div class="ten">
+      <div class="red-photo">
+        <img
+          src="./assets/images/conference.jpg"
+          alt="conference photo"
+          class="conference-img"
+        />
+      </div>
     </div>
   </div>
 </div>
+<script src='./assets/js/main.js'></script>
