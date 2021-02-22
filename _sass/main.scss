@@ -55,7 +55,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   //grid-template-rows: 400px 100px 300px 300px 200px
-  grid-template-rows: 1.5fr 0.5fr 1.5fr 1.5fr
+  //grid-template-rows: 2fr 0.5fr 1.5fr 1.5fr
   //grid-template-rows: repeat(5, 1fr);
 
   
@@ -328,13 +328,14 @@ a.signup-link:hover:after {
 .vid-one{
   margin-top: -10px;
   margin-bottom: 50px;
-}
-
-.vid-two{
   margin-left: 80px;
 }
 
+.vid-two{
+  margin-left: 170px;
+}
+
 .eight{
-margin-left: 100px;
+margin-left: 200px;
  margin-top: -30px;
 }
