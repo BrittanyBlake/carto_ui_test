@@ -1,3 +1,5 @@
+html { overflow: auto; }
+
 body { background: #c5ccd5; color: #fff; font-family: "Karla", sans-serif; }
 
 .main-content { padding: 47px 288px 50px 251.4px; }
@@ -90,6 +92,6 @@ a.signup-link:hover:after { width: 100%; left: 0; }
 
 .photo-two { margin: -30px 0 0 200px; }
 
-@media only screen and (max-width: 430px) { nav { display: inline-block; padding-right: 200px; margin-bottom: 50px; margin-left: 0; max-width: 100%; } .main-content { padding: 0; padding: 0 20px 0 20px; } .grid-container { display: grid; grid-template-columns: 1fr; } .conference-title { grid-row: 1; font-size: 2em; letter-spacing: 0; max-height: 50px; } .online-div { grid-row: 2; } .signup { grid-row: 3; padding-bottom: 0; display: block; margin-top: 50px; } .video-section { margin-left: 0; align-items: center; } .vid-one { grid-row: 4; margin: 50px; width: 300px; } .yt-video { width: 300px; } .vid-two { grid-row: 5; margin: 50px; width: 300px; } .photo-one { display: none; } .description { grid-row: 6; } .quote-section { grid-row: 8; } .quote { margin: 0; } .photo-two { grid-row: 7; margin: 50px 0; } .red, .white { width: 250px; } .red { margin-left: 60px; } .main-text { width: 250px; line-height: normal; padding: 0; } }
+@media only screen and (max-width: 430px) { body { overflow-x: hidden; } nav { display: inline-block; padding-right: 200px; margin-bottom: 50px; margin-left: 0; max-width: 100%; } .main-content { padding: 0; padding: 0 20px 0 20px; } .grid-container { display: grid; grid-template-columns: 1fr; } .conference-title { grid-row: 1; font-size: 2em; letter-spacing: 0; max-height: 50px; } .online-div { grid-row: 2; } .signup { grid-row: 3; padding-bottom: 0; display: block; margin-top: 50px; } .video-section { margin-left: 0; align-items: center; } .vid-one { grid-row: 4; margin: 50px; width: 300px; } .yt-video { width: 300px; } .vid-two { grid-row: 5; margin: 50px; width: 300px; } .photo-one { display: none; } .description { grid-row: 6; } .quote-section { grid-row: 8; } .quote { margin: 0; width: 275px; text-align: left; } .photo-two { grid-row: 7; margin: 50px 0; } .red, .white { width: 250px; } .red { margin-left: 60px; } .main-text { width: 250px; line-height: normal; padding: 0; } }
 
 /*# sourceMappingURL=main.css.map */

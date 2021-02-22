@@ -10,12 +10,12 @@ $blackColor: #000000;
 $mobile: 430px;
 $tablet: 1030px;
 
+html { overflow:auto; } 
+
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  // width: 100%;
-  // height:100%
 }
 
 .main-content {
@@ -26,8 +26,8 @@ a {
 }
 
 /****** navigation ******/
+
 nav {
-  // background-color: $bodyColor;
   display: flex;
   width: 960px;
   justify-content: $between;
@@ -55,6 +55,7 @@ nav {
 }
 
 /****** Main Content ******/
+
 a {
   text-decoration: none;
 }
@@ -305,8 +306,12 @@ a.signup-link:hover:after {
 }
 
 @media only screen and (max-width: $mobile) {
+  body{
+    overflow-x: hidden;
+
+  }
+
   nav {
-    // background-color: $bodyColor;
     display: inline-block;
     padding-right: 200px;
     margin-bottom: 50px;
@@ -316,7 +321,6 @@ a.signup-link:hover:after {
 
   .main-content {
     padding: 0;
-    // max-width: 100%;
     padding: 0 20px 0 20px;
   }
 
@@ -335,7 +339,6 @@ a.signup-link:hover:after {
 
   .online-div {
     grid-row: 2;
-    //padding: 0 20px 0 20px;
   }
 
   .signup {
@@ -368,7 +371,6 @@ a.signup-link:hover:after {
 
   .photo-one {
     display: none;
-    // mar/gin: 0;
   }
 
   .description {
@@ -382,6 +384,8 @@ a.signup-link:hover:after {
 
   .quote{
      margin:0;
+     width:275px;
+     text-align: left;
   }
 
   .photo-two {
