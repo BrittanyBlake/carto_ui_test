@@ -24,4 +24,10 @@ nav .nav-links a { margin: 15px 32px 0 0; font-weight: bold; align-items: flex-e
 
 .oval { height: 12px; width: 12px; background-color: #f24440; border-radius: 50%; display: inline-block; }
 
+.five { position: relative; }
+
+.red { width: 390px; height: 331px; margin: 0 0 12px 9px; padding: 13px 15px 37px 24px; background-color: #f24440; }
+
+.main-text { width: 390px; height: 334px; margin: 0 0 0 -50px; padding: 15px 37px 24px 13px; background-color: #fff; }
+
 /*# sourceMappingURL=main.css.map */

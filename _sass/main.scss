@@ -90,3 +90,30 @@ display: flex;
   border-radius: 50%;
   display: inline-block;
 }
+.five{
+  position: relative;
+}
+
+.red{
+  width: 390px;
+  height: 331px;
+  margin: 0 0 12px 9px;
+  padding: 13px 15px 37px 24px;
+  //padding: 37px 24px 13px 15px;
+  background-color: $primaryColor;
+  // position: absolute;
+  // z-index: 2;
+}
+
+.main-text{
+  width: 390px;
+  height: 334px;
+  margin: 0 0 0 -50px;
+  //padding: 15px 37px 24px 13px;
+  //padding: 13px 15px 37px 24px;
+  padding: 15px 37px 24px 13px;
+  //padding: 37px 24px 13px 15px;
+  background-color: $bodyColor;
+  // position:absolute;
+  // z-index: 1;
+}
