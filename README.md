@@ -40,7 +40,7 @@
 
 * [About the Project](#about-the-project)
 * [Installation](#installation)
-* [Live Link](#Live-Link-(Heroku))
+* [Live Link](#Live-Link-(Netlify))
 * [Built With](#built-with)
 * [Contact](#Authors)
 * [Acknowledgements](#acknowledgements)
